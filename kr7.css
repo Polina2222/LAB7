@@ -1,0 +1,244 @@
+body{
+    
+}
+main{
+    min-width: 100%;
+    height:auto;
+    background-color: rgba(80, 173, 228, 0.226);
+}
+.glavnoenav{
+    background: url(ozone.jpg) no-repeat ;
+    background-size: cover;
+}
+.imi{
+    vertical-align: middle;
+    color: royalblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.logo{
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: auto;
+    background-color: inherit;
+}
+/* input.txt {
+   
+    background-color: #E3F2F7;
+    border: 1px inset #00008B;
+    width: 200px;
+    } */
+.vkladki{
+   
+    margin-top: -180px;
+    overflow: hidden;
+    float: right;
+}
+.vkladki li{
+    display: inline;
+}
+.vkladki a{
+    display:inline-block; 
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgba(140, 79, 219, 0.712);
+    margin:0px;
+    padding: 10px 20px;
+    color: lightblue;
+    font-family: sans-serif;
+    border-bottom: 5px solid royalblue;
+} 
+.vosstonavlenie{
+    color: snow;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 550px;
+    height: 650px;
+    background-color: rgba(91, 129, 235, 0.671);
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+input[type="text"],input[type="password"], input[type="email"]{
+    width: 300px;
+    height: 50px;
+    font-style: 18px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.container img{
+    width: 120px;
+    height: 120px;
+    margin: -60px 0 30px 0;
+    border: 5px solid  rgb(91, 137, 235) ;
+    background-repeat: 50%;
+}
+.sybmit{
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color:#ffff;
+    background-color: rgba(41, 143, 226, 0.877);
+    border: none;
+    border-bottom: 4px solid royalblue;
+    cursor: pointer;
+}
+.sybmit:hover{
+    transition: all 0.5s;
+    background: #ffff;
+    color: #2c536c;
+}
+.nazvanie{
+
+
+   color: royalblue;
+   font-size: 30px;
+   font-family: sans-serif;
+
+   width: 280px;
+   margin-left: auto;
+   margin-right: auto; 
+}
+legend{
+    color: royalblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+figure{
+    text-align: center;
+}
+.photo:hover{
+    transform: rotate(90deg);
+}
+.photo{
+
+width: 200px;
+height: 200px;    
+}
+
+ .rot {
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 1s linear 0s normal none infinite running rot;
+    width: 100px;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  h1{
+      text-shadow:5px 5px 5px skyblue;
+      text-align: center;
+      color: royalblue;
+
+  }
+  figcaption{max-width: 100px;
+    margin-left:660px;
+      width: auto;
+      background: radial-gradient(royalblue, skyblue);
+  }
+  p{
+    column-count: 5;
+    column-width: 200px;
+    column-rule: 1px solid #ccc;
+  }
+.dws-input{
+    margin: 0 20px;
+    text-align: right;
+    margin-right: 40px;
+}
+.index{
+    margin-top: -100px;
+}
+main{
+    margin-top: -40px;
+}
+ .h2{
+    text-shadow:5px 5px 5px skyblue;
+    text-align: center;
+    color: royalblue;
+    display: inline-block;
+    text-align: center;
+} 
+
+
+
+.  &:focus {
+        
+    // removing default focus style
+    outline: 0;
+    // adding new one
+    background: white;
+    
+    & + label {
+      opacity: 0;
+    }
+  }
+  
+  &:valid {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    & + label {
+      opacity: 0;
+    }
+  }
+  
+  &:invalid:not(:focus):not(:placeholder-shown) {
+    background: pink;
+    & + label {
+      opacity: 0;
+    }
+  }
+  
+  &:invalid:focus:not(:placeholder-shown) {
+    & ~ .requirements {
+      max-height: 200px;
+      padding: 0 30px 20px 50px;
+    }
+  }
+  
+
+
+.requirements {
+  padding: 0 30px 0 50px;
+  color: #999;
+  max-height: 0;
+  transition: 0.28s;
+  overflow: hidden;
+  color: red;
+  font-style: italic;
+}
+
+
+
+/* input[type="submit"] {
+display: block;
+width: 100%;
+margin: 20px 0;
+background: #41D873;
+color: white;
+border: 0;
+padding: 20px;
+font-size: 1.2rem;
+} */
+
+
